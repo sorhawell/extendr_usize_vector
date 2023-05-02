@@ -7,10 +7,10 @@ reprex::reprex({
   library(helloextendr)
   
   #make
-  x = usize_vec(c(1:5,NA_integer_))
+  x = usize_vec(c(1:3 ,NA_integer_))
   
-  #index it
-  x[1:3]
+  #index it and print
+  print(x[1:3])
   
   length(x)
   
@@ -21,7 +21,7 @@ reprex::reprex({
   )
   
   #subset combined vector
-  df[1:3,]
+  df[2:4,]
 })
 
 
